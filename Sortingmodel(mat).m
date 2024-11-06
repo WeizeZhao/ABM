@@ -88,6 +88,7 @@ for aa=1:1:R
 end
 
 %The function calculating disutility value from gap between expressed attitude and distribution median. 
+%Please paste this function in a new .m file. 
 function disutility=utilitya(x,alpha1,beta1,gamma)
 disutility=exp(abs(gamma*(betacdf(x,alpha1,beta1)-0.5)));
 end
