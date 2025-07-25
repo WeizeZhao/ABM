@@ -375,6 +375,9 @@ end
 %% fminsearchbnd
 function [x,fval,exitflag,output] = fminsearchbnd(fun,x0,LB,UB,options,varargin)
 
+% Author: John D'Errico
+% Release date: 7/23/06
+
 % Example usage:
 % rosen = @(x) (1-x(1)).^2 + 105*(x(2)-x(1).^2).^2;
 %
